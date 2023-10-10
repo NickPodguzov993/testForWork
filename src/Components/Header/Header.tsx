@@ -10,8 +10,8 @@ const Header = () => {
             <header className={style.header}>
                 <img className={style.iconMenu} src="src/assets/iconMenu.svg" alt=""/>
                 <img className={style.iconMenu} src="src/assets/iconArrow.svg" alt=""/>
-                <span className={style.iconMenu}>Просмотр</span>
-                <span className={style.iconMenu}>Управление</span>
+                <p className={style.headerSpan}>Просмотр</p>
+                <p className={style.headerSpanTwo}>Управление</p>
             </header>
         </div>
     );

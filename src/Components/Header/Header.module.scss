@@ -1,9 +1,23 @@
 .header {
-  height: 44px;
   border-bottom: 1px solid #414144;
+  display: flex;
+  height: 44px;
+  p {
+    padding: 0;
+  }
 }
 
 .iconMenu {
   padding-left: 24px;
-  padding-top: 13px;
+  width: 24px;
+}
+
+.headerSpan {
+  margin: 10px 10px 0 10px;
+  border-bottom: 1px solid white;
+}
+.headerSpanTwo {
+  margin: 10px 10px 0 10px;
+  padding-left: 24px;
+  color: #A1A1AA;
 }

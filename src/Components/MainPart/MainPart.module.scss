@@ -1,14 +1,29 @@
 .mainPart {
   display: flex;
+  border-bottom: 1px solid #414144;
+
+  p {
+    color: #A1A1AA;
+    margin: 0;
+  }
+}
+
+.titleMain {
+
+  border-bottom: 1px solid #414144;
+  margin: 0;
+  padding: 8px 0 9px 12px;
 
 }
 
 p {
   padding-left: 30px;
+  padding-bottom: 14px;
+  padding-top: 14px;
 }
 
 .description {
-  padding-left: 90px;
+  padding-left: 30px;
   font-size: 14px;
 }
 

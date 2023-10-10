@@ -14,10 +14,10 @@ const NameOfWork = (props:NameOfWorkType) => {
     return (
         <div className={style.nameOfWork}>
             <img src="src/assets/Icon.svg" alt=""/>
-            <p>{props.title}</p>
-            <p>{props.salary}</p>
-            <p>{props.equipment}</p>
-            <p>{props.credit}</p>
+            <p className={style.title}>{props.title}</p>
+            <p className={style.salary}>{props.salary}</p>
+            <p className={style.equipment}>{props.equipment}</p>
+            <p className={style.credit}>{props.credit}</p>
             <p>{props.debt}</p>
 
         </div>

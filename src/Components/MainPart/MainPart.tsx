@@ -4,7 +4,7 @@ import NameOfWork from "./NameOfWork/NameOfWork";
 const MainPart = () => {
     return (
         <div>
-            <h3>Строительно-монтажные работы</h3>
+            <h3 className={style.titleMain}>Строительно-монтажные работы</h3>
             <div className={style.mainPart}>
                 <p>Уровень</p>
                 <p className={style.workName}>Наименование работ</p>
