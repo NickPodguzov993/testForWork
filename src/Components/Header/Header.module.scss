@@ -1,23 +1,27 @@
 .header {
   border-bottom: 1px solid #414144;
   display: flex;
+  align-items: center;
   height: 44px;
+  padding: 0px 20px;
   p {
-    padding: 0;
+    padding: 0px;
   }
 }
 
 .iconMenu {
-  padding-left: 24px;
   width: 24px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .headerSpan {
-  margin: 10px 10px 0 10px;
+  margin-right: 15px;
+  padding-bottom: 5px;
   border-bottom: 1px solid white;
 }
 .headerSpanTwo {
-  margin: 10px 10px 0 10px;
+  // margin: 10px 10px 0 10px;
   padding-left: 24px;
-  color: #A1A1AA;
+  color: #a1a1aa;
 }

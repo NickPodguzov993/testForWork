@@ -1,18 +1,16 @@
-import React from 'react';
-import "/src/assets/iconSelect.svg";
+import React from 'react'
 import style from './SelectTitle.module.scss'
+import { SelectIcon } from '../../../assets/SelectIcon'
 
 type SelectType = {
-    title: string
+  title: string
 }
 
 export const SelectTitle = (props: SelectType) => {
-    return (
-        <div className={style.selectTitle}>
-            <img src="src/assets/iconSelect.svg" alt=""/>
-            <p className={style.title}>{props.title}</p>
-        </div>
-
-    );
-};
-
+  return (
+    <div className={style.selectTitle}>
+      <SelectIcon />
+      <p className={style.title}>{props.title}</p>
+    </div>
+  )
+}

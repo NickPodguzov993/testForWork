@@ -1,24 +1,26 @@
 .navBar {
-border-right: 1px solid #414144;
+  border-right: 1px solid #414144;
   height: 100vh;
 }
 
 .selectName {
   border-bottom: 1px solid #414144;
+  padding: 0px 5px 0px 20px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
+
+
 }
 
 .nameProject {
   margin: 0;
   font-size: 14px;
   width: 234px;
-  color: #A1A1AA
+  color: #a1a1aa;
 }
 
 .spanSelect {
   font-size: 10px;
-  color: #A1A1AA
+  color: #a1a1aa;
 }
-
-

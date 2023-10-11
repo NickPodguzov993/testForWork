@@ -1,20 +1,19 @@
-import React from 'react';
-import "/src/assets/iconMenu.svg";
-import "/src/assets/iconArrow.svg";
-import  style from './Header.module.scss'
-
+import React from 'react'
+import style from './Header.module.scss'
+import { MenuIcon } from '../../assets/MenuIcon'
+import { ArrowIcon } from '../../assets/ArrowIcons'
 
 const Header = () => {
-    return (
-        <div>
-            <header className={style.header}>
-                <img className={style.iconMenu} src="src/assets/iconMenu.svg" alt=""/>
-                <img className={style.iconMenu} src="src/assets/iconArrow.svg" alt=""/>
-                <p className={style.headerSpan}>Просмотр</p>
-                <p className={style.headerSpanTwo}>Управление</p>
-            </header>
-        </div>
-    );
-};
+  return (
+    <div>
+      <header className={style.header}>
+        <MenuIcon className={style.iconMenu} />
+        <ArrowIcon className={style.iconMenu} />
+        <p className={style.headerSpan}>Просмотр</p>
+        <p className={style.headerSpanTwo}>Управление</p>
+      </header>
+    </div>
+  )
+}
 
-export default Header;
+export default Header

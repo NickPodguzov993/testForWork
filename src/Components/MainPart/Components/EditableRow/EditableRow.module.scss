@@ -1,0 +1,44 @@
+.editableInput {
+  background-color: transparent;
+  width: 100%;
+
+  outline: none;
+
+  padding: 5px 10px;
+  margin-right: 20px;
+  font-size: 16px;
+
+  border: none;
+  border-radius: 4px;
+  border: 1px solid #333438;
+
+  color: #fff;
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.body {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto repeat(4, 200px);
+  align-items: center;
+}
+
+.tools {
+  margin-right: 20px;
+}
