@@ -1,4 +1,3 @@
-import { GeneralInfo } from '../Components/MainPart/MainPart.types'
 import http from './http'
 import { CreateRowPropsT, UpdateRowPropsT } from './request.types'
 

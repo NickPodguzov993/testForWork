@@ -1,4 +1,4 @@
-import React from 'react'
+
 import style from './Header.module.scss'
 import { MenuIcon } from '../../assets/MenuIcon'
 import { ArrowIcon } from '../../assets/ArrowIcons'
