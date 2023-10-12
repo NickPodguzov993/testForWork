@@ -7,7 +7,7 @@ type UpdateFunctionT = (arr: GeneralInfo[]) => GeneralInfo[]
 
 type EditableRowPropsT = {
   data?: GeneralInfo
-  setData: React.Dispatch<React.SetStateAction<any[]>>
+  setData: React.Dispatch<React.SetStateAction<GeneralInfo[]>>
   parent?: GeneralInfo
   close?: () => void
 }

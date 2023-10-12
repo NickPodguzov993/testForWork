@@ -16,7 +16,7 @@ export type GeneralInfo = {
 
 export type DefaultRowPropsT = {
   data: GeneralInfo
-  setData: React.Dispatch<React.SetStateAction<any[]>>
+  setData: React.Dispatch<React.SetStateAction<GeneralInfo[]>>
   parent?: GeneralInfo
   isChildren?: number
   parentIsEdit?: boolean
