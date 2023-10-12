@@ -1,6 +1,17 @@
+.main {
+  width: 100%;
+}
+
+.container {
+  background-color: #202124;
+  height: 100vh;
+
+}
+
 .mainPart {
   display: flex;
   border-bottom: 1px solid #414144;
+  width: 100%;
 
   p {
     color: #A1A1AA;
@@ -9,11 +20,12 @@
 }
 
 .titleMain {
-
   border-bottom: 1px solid #414144;
   margin: 0;
   padding: 8px 0 9px 12px;
-
+  font-size: 18px;
+  border-right: 1px solid  #414144;
+  width: 320px;
 }
 
 p {

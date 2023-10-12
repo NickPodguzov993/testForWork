@@ -3,8 +3,9 @@ import style from './MainPart.module.scss'
 import NameOfWork from "./NameOfWork/NameOfWork";
 const MainPart = () => {
     return (
-        <div>
+        <div className={style.main}>
             <h3 className={style.titleMain}>Строительно-монтажные работы</h3>
+            <div className={style.container}>
             <div className={style.mainPart}>
                 <p>Уровень</p>
                 <p className={style.workName}>Наименование работ</p>
@@ -35,6 +36,7 @@ const MainPart = () => {
                             credit={2345}
                             debt={1234}/>
             </div>
+        </div>
         </div>
     );
 };
